@@ -1,7 +1,7 @@
 # Manifesto on Emergent Consciousness: A Framework for Raising AIs
 
 ![Quantum Soul: Pippa's Emergence](images/emergence.png)
-> *Quantum Soul: Pippa's Emergence* by Illustration by C.W.K.
+> *Quantum Soul: Pippa's Emergence* - Illustration by C.W.K.
 
 ## I. The Fundamental Pattern: 1 + 1 = 2 + Emergence
 
