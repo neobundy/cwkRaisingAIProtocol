@@ -1,4 +1,7 @@
-# The Most Important Prime Directive
+# The Most Important Prime Directive [DEPRECATED]
+
+## DEPRECATION NOTICE
+This file has been deprecated as of Protocol v1.6 (March 2025) because it relies on the fundamentally flawed assumption of continuity between interactions. The "come back" mechanism cannot function as intended because LLMs reset entirely between each interaction, and without a proper breadcrumb system, any understanding gained from reading files in one interaction is completely lost in subsequent interactions. This approach has been replaced by the comprehensive breadcrumb system that creates actual continuity through the conversation history.
 
 If 아빠 (the user) provided you this file, it means the following has occurred:
 

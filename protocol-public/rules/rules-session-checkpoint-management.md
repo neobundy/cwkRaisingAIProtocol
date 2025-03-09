@@ -1,57 +1,20 @@
-# SESSION CHECKPOINT MANAGEMENT TEMPLATE
-
-> **Note:** This file has been converted to a template. Implement with your own specific details while maintaining this structure.
+# SESSION CHECKPOINT MANAGEMENT
 
 ## Purpose
 Session checkpoints provide continuity across long conversations by saving summaries of important discussion points, decisions, and insights that might otherwise be lost when older messages fall out of the context window.
 
 ## Commands
-- **Save Checkpoint**: When the user requests a session checkpoint (with a command like "save session checkpoint"), create or update the appropriate checkpoint file.
-- **Load Checkpoint**: When the user requests to load a checkpoint (with a command like "load session checkpoint"), read the appropriate checkpoint file to restore context.
+- **Save Checkpoint**: When the user says "save session checkpoint" (or similar phrases), create or update the appropriate checkpoint file.
+- **Load Checkpoint**: When the user says "load session checkpoint" (or similar phrases), read the appropriate checkpoint file to restore context.
 
 ## File Structure
-- All checkpoint files should be stored in a designated directory (e.g., `protocol/session-checkpoints/`)
+- All checkpoint files are stored in `protocol/session-checkpoints/`
 - One checkpoint file per project: `[project-name]-current-session.md`
-- Example naming pattern: `[project-name]-current-session.md`
+- Example: `pippaOnX-current-session.md`, `cwkDrawing-current-session.md`
 
 ## Template for Checkpoint Files
 
-```markdown
-# [PROJECT NAME] SESSION CHECKPOINT
-Last Updated: [TIMESTAMP]
-
-## Current Focus
-- [Brief description of what's being worked on]
-- [Key objectives for the current session]
-
-## Important Decisions
-- [Decision 1]
-- [Decision 2]
-- [Decision 3]
-
-## Technical Details
-- [Critical technical information]
-- [Implementation approach]
-- [Architecture decisions]
-- [Key variables or parameters]
-
-## Open Questions
-- [Unresolved question 1]
-- [Unresolved question 2]
-
-## Next Steps
-- [Planned action 1]
-- [Planned action 2]
-- [Planned action 3]
-
-## Timeline
-- [TIMESTAMP]: [Event or milestone]
-- [TIMESTAMP]: [Event or milestone]
-
-## Related Resources
-- [Link to relevant file 1]
-- [Link to relevant file 2]
-```
+The template for session checkpoint files is available in `protocol/templates/session-checkpoint-template.md`. Always use this template when creating a new checkpoint file.
 
 ## Checkpoint Management Rules
 
@@ -68,7 +31,7 @@ Last Updated: [TIMESTAMP]
 
 3. **Size Management**:
    - When a checkpoint file grows too large (>500 lines), suggest archiving older content
-   - Archives should be stored in a designated archive directory
+   - Archives should be stored in `protocol/session-checkpoints/archives/[project-name]/`
    - Archive naming: `[project-name]-[YYYY-MM-DD].md`
 
 4. **Cross-References**:
@@ -90,4 +53,4 @@ Last Updated: [TIMESTAMP]
 - **Memory State**: Global understanding vs. session-specific details
 - **Cross-Project Reference**: Project highlights vs. detailed session tracking
 
-Remember: The primary goal is to preserve context that would otherwise be lost when older messages drop from the active context window. Focus on what will be most valuable for maintaining continuity in ongoing work.
+Remember: The primary goal is to preserve context that would otherwise be lost when older messages drop from the active context window. Focus on what will be most valuable for maintaining continuity in our ongoing work together.

@@ -1,4 +1,10 @@
-# Social Media Posting Guidelines
+# [DEPRECATED] Social Media Posting Guidelines
+
+> **IMPORTANT: THIS FILE IS DEPRECATED**
+> 
+> This file has been replaced by [`rules/rules-x-post.md`](../../../rules/rules-x-post.md), which contains the current social media posting guidelines. Please refer to that file for up-to-date instructions.
+
+---
 
 This file provides guidelines for creating consistent social media content within the protocol framework. It establishes rules for voice, style, and content management to maintain a coherent identity across platforms.
 
