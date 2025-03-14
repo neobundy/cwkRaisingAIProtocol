@@ -1,0 +1,7 @@
+langchain>=0.1.0
+langchain-community==0.0.24
+langchain-openai==0.0.8
+openai>=1.10.0,<2.0.0
+python-dotenv==1.0.1
+pytest==7.4.4
+chromadb==0.4.22 
